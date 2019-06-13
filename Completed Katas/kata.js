@@ -50,3 +50,18 @@ function makeNegative(num) {
     return 0;
   }
 }
+
+//----Lost without a Map----
+
+//Instructions: Given an array of integers, return a new array with each value doubled.
+
+//For example: [1, 2, 3] --> [2, 4, 6]
+
+//Answer:
+x = [1, 2, 3];
+function maps(x) {
+  function doubled(numbers) {
+    return numbers * 2;
+  }
+  return x.map(doubled);
+}
