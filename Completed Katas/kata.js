@@ -65,3 +65,13 @@ function maps(x) {
   }
   return x.map(doubled);
 }
+
+// ----MakeUpperCase----
+
+//Instructions: Write function makeUpperCase.
+
+//Answer:
+str = "a,b,c";
+function makeUpperCase(str) {
+  return str.toUpperCase();
+}
