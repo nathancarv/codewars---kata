@@ -75,3 +75,20 @@ str = "a,b,c";
 function makeUpperCase(str) {
   return str.toUpperCase();
 }
+
+//----Reversed Words----
+
+//Instructions: Complete the solution so that it reverses all of the words within the string passed in.
+
+//reverseWords("The greatest victory is that which requires no battle")
+// should return "battle no requires which that is victory greatest The"
+
+//Answer:
+let str = "my name nate";
+function reverseWords(str) {
+  var reverseArr = str
+    .split(" ")
+    .reverse()
+    .join(" ");
+  return reverseArr; // reverse those words
+}
