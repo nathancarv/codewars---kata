@@ -92,3 +92,23 @@ function reverseWords(str) {
     .join(" ");
   return reverseArr; // reverse those words
 }
+
+//---- Sum Arrays----
+
+//Instructions: Write a method sum that takes an array of numbers
+// and returns the sum of the numbers.
+// The numbers can also be negative. If the array does not contain any numbers then you should return 0.
+
+// numbers = [1, 5.2, 4, 0, -1]
+// puts sum(numbers)
+// 9.2
+
+//Answer:
+function sum(numbers) {
+  let counter = 0;
+  for (i = 0; i < numbers.length; i++) {
+    counter += numbers[i];
+  }
+
+  return counter;
+}
