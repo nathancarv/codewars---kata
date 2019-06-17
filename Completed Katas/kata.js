@@ -112,3 +112,21 @@ function sum(numbers) {
 
   return counter;
 }
+
+
+//Exclamation marks series #6: Remove n exclamation marks in the sentence from left to right
+
+//Instructions: Remove n exclamation marks in the sentence from left to right. n is positive integer.
+
+//Answer:
+function remove(s,n){
+  for (let i = 1; i <= n; i++){
+  console.log(i)
+  s = s.replace('!', '');
+  console.log(s)
+  }
+  return s;
+  
+}
+
+
